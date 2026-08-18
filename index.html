@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Monografia jaime Velazquez</title>
+</head>
+<body>
+    <header>
+        <!--! Navegación, elemento bootstrap navbar-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Monografias AJ</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <!-- La clase 'me-auto' empuja todo lo que esté después (el form) a la derecha -->
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#PreguntasFrecuentes">Preguntas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#galeria">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.youtube.com/watch?v=IYS5kI8puhs" role="button" target="_blank">
+                                video sobre rotts
+                            </a>
+                        </li> 
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Aun no sirve XD" aria-label="Search"/>
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="Principal" class="bg-dark text-white py-10 seccion-carrusel-tarjeta">
+        <div class="container col-lg-8 mx-auto text-center py-5">
+            <h1 class="fw-bold mb-4 fs-1">Monografias AJ</h1>
+            <p class="fs-5 mb-0">Bienvenido a Monografias AJ, tu fuente confiable para obtener información de calidad sobre Rottweilers. Explora nuestras secciones y descubre contenido valioso para saber más sobre esta hermosa raza.</p><br>
+            <p class="fs-5 mb-0">El Rottweiler es una de las razas de perros más antiguas y versátiles de la historia. Sus orígenes se remontan al Imperio Romano, donde sus antepasados eran utilizados como perros boyeros para guiar y proteger al ganado en largas marchas a través de los Alpes. Con el paso de los siglos, la raza se asentó en la ciudad alemana de Rottweil, donde se convirtió en el compañero inseparable de los carniceros locales, ganándose el apodo de <em>"Rottweiler Metzgerhund"</em> (Perro del carnicero de Rottweil). Su fuerza física y su inquebrantable instinto de protección lo convirtieron en un trabajador indispensable tanto para la defensa de propiedades como para el tiro de pequeños carros.</p><br>
+            <p class="fs-5 mb-0">Físicamente, es un perro de porte atlético, musculoso y compacto, que transmite fuerza y agilidad en cada uno de sus movimientos. Posee una cabeza ancha, una mandíbula poderosa y un característico pelaje corto de color negro con marcas bien delimitadas en tonos fuego o cobrizos sobre las mejillas, el pecho y las patas. A pesar de su apariencia imponente y robusta, su mirada es expresiva y noble, reflejando una inteligencia superior que lo sitúa de forma consistente entre las razas caninas con mayor capacidad de aprendizaje y adiestramiento.</p><br>
+
+            <p class="fs-5 mb-0">Detrás de su imponente estampa se encuentra un perro de carácter profundamente leal, sereno y apegado a su familia. El Rottweiler no es un perro agresivo por naturaleza, sino un protector nato con un fuerte sentido del territorio que reacciona con firmeza únicamente ante amenazas reales hacia sus seres queridos. Para desarrollar su faceta más equilibrada y afectuosa, esta raza requiere desde cachorro una socialización constante, ejercicio físico diario y un entrenamiento basado en el refuerzo positivo, convirtiéndose así en un compañero noble, paciente y excepcionalmente devoto del hogar.</p><br>
+        </div>
+    </section>
+    <!-- ! seccion de galeria usando grid-->
+    <section class="galeria" id="galeria">
+        <div class="container col-lg-8 mx-auto text-center py-5">
+            <h2 class="fw-bold mb-4 fs-1">Galería de imágenes</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/me.jpg" class="card-img-top" alt="Imagen de perfil">
+                        <div class="card-body">
+                            <h5 class="card-title">Yo</h5>
+                            <p class="card-text">Sobre mi.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/pupy.jpg" class="card-img-top" alt="Imagen de un cachorro de Rottweiler">
+                        <div class="card-body">
+                            <h5 class="card-title">Rott bebe</h5>
+                            <p class="card-text">Todo un rotty bebe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/young.jpg" class="card-img-top" alt="Imagen de un joven rottweiler">
+                        <div class="card-body">
+                            <h5 class="card-title">Rott joven</h5>
+                            <p class="card-text">Un rottweiler en su etapa juvenil.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/raptor.jpg" class="card-img-top" alt="Imagen de un rottweiler en etapa destructiva">
+                        <div class="card-body">
+                            <h5 class="card-title">El Rottweiler destructor</h5>
+                            <p class="card-text">Un rottweiler en su etapa monstro.</p>
+                        </div>
+                    </div>
+                </div>
+
+             <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/adult.jpg" class="card-img-top" alt="Imagen de un rottweiler adulto">
+                        <div class="card-body">
+                            <h5 class="card-title">Rott adulto</h5>
+                            <p class="card-text">Un rottweiler en su etapa más calmada.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/variantes.jpg" class="card-img-top" alt="Imagen de las variantes de un rott.">
+                        <div class="card-body">
+                            <h5 class="card-title">Tipos de rottweiler</h5>
+                            <p class="card-text">las variantes que no todos conocen de un rottweiler.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- !seccion de preguntas, elementos bootrapp usados: accordion y tarjeta con modal-->
+    <section class="bg-black text-white py-5" id="PreguntasFrecuentes">
+    <div class="container">
+        
+        <!-- !Título de la sección arriba a todo lo ancho -->
+        <h2 class="fw-bold mb-4 fs-1">Preguntas frecuentes</h2>
+
+        <!-- !Fila principal (Grid) -->
+        <div class="row g-4 align-items-start">
+        
+        <!-- !COLUMNA IZQUIERDA: Preguntas Frecuentes (Ocupa 8 de 12 columnas en pantallas grandes) -->
+        <div class="col-lg-8">
+            <div class="accordion accordion-flush d-flex flex-column gap-2" id="AcordeonPreguntas">
+            
+            <!-- !Pregunta 1 -->
+            <div class="accordion-item bg-dark text-white border-0">
+                <h3 class="accordion-header">
+                <button class="accordion-button collapsed bg-dark text-white fs-4 border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#pregunta1" aria-expanded="false" aria-controls="pregunta1">
+                    ¿Cuánto cuesta mantener a un Rott?
+                </button>
+                </h3>
+                <div id="pregunta1" class="accordion-collapse collapse" data-bs-parent="#AcordeonPreguntas">
+                <div class="accordion-body fs-5 border-top border-secondary">
+                    <p class="mb-0">Entra la comida, veterinario y otros accesorios un rott cuesta entre $2000 y $5000 mensuales.</p>
+                </div>
+                </div>
+            </div>
+
+            <!-- !Pregunta 2 -->
+            <div class="accordion-item bg-dark text-white border-0">
+                <h3 class="accordion-header">
+                <button class="accordion-button collapsed bg-dark text-white fs-4 border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#pregunta2" aria-expanded="false" aria-controls="pregunta2">
+                    ¿Qué comen los rotts?
+                </button>
+                </h3>
+                <div id="pregunta2" class="accordion-collapse collapse" data-bs-parent="#AcordeonPreguntas">
+                <div class="accordion-body fs-5 border-top border-secondary">
+                    <p class="mb-0">Comen de todo, cuando digo de todo es todo!</p>
+                </div>
+                </div>
+            </div>
+
+            <!-- !Pregunta 3 -->
+            <div class="accordion-item bg-dark text-white border-0">
+                <h3 class="accordion-header">
+                <button class="accordion-button collapsed bg-dark text-white fs-4 border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#pregunta3" aria-expanded="false" aria-controls="pregunta3">
+                    ¿Puedo acariciar a un rott que no conozco?
+                </button>
+                </h3>
+                <div id="pregunta3" class="accordion-collapse collapse" data-bs-parent="#AcordeonPreguntas">
+                <div class="accordion-body fs-5 border-top border-secondary">
+                    <p class="mb-0">No, nunca lo hagas.</p>
+                </div>
+                </div>
+            </div>
+
+            <!-- !Pregunta 4 -->
+            <div class="accordion-item bg-dark text-white border-0">
+                <h3 class="accordion-header">
+                <button class="accordion-button collapsed bg-dark text-white fs-4 border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#pregunta4" aria-expanded="false" aria-controls="pregunta4">
+                    ¿Cómo cancelo mi suscripción a la vida?
+                </button>
+                </h3>
+                <div id="pregunta4" class="accordion-collapse collapse" data-bs-parent="#AcordeonPreguntas">
+                <div class="accordion-body fs-5 border-top border-secondary">
+                    <p class="mb-0">Acariciando a un rott desconocido XD.</p>
+                </div>
+                </div>
+            </div>
+
+            <!-- !Pregunta 5 -->
+            <div class="accordion-item bg-dark text-white border-0">
+                <h3 class="accordion-header">
+                <button class="accordion-button collapsed bg-dark text-white fs-4 border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#pregunta5" aria-expanded="false" aria-controls="pregunta5">
+                    ¿Qué puedo hacer si un Rott me ataca?
+                </button>
+                </h3>
+                <div id="pregunta5" class="accordion-collapse collapse" data-bs-parent="#AcordeonPreguntas">
+                <div class="accordion-body fs-5 border-top border-secondary">
+                    <p class="mb-0">Resa por tu vida</p>
+                </div>
+                </div>
+            </div>
+
+            <!-- !Pregunta 6 -->
+            <div class="accordion-item bg-dark text-white border-0">
+                <h3 class="accordion-header">
+                <button class="accordion-button collapsed bg-dark text-white fs-4 border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#pregunta6" aria-expanded="false" aria-controls="pregunta6">
+                    ¿Es bueno tener un Rott si tengo niños?
+                </button>
+                </h3>
+                <div id="pregunta6" class="accordion-collapse collapse" data-bs-parent="#AcordeonPreguntas">
+                <div class="accordion-body fs-5 border-top border-secondary">
+                    <p class="mb-0">Sí y solo si el perro tuvo buena crianza y socialización. No es para novatos.</p>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- !COLUMNA DERECHA: Tarjeta Informativa (Ocupa 4 de 12 columnas en pantallas grandes) -->
+        <div class="col-lg-4">
+            <div class="card bg-dark text-white border-secondary h-100">
+            <img src="assets/ilove.jpg" class="card-img-top" alt="Slogan Rottweiler">
+            <div class="card-body">
+                <h5 class="card-title fw-bold fs-4">En este sitio amamos a los Rottweiler</h5>
+                <p class="card-text">Hace mucho tiempo cuando las 4 naciones vivían en armonía un ganadero tomó una decisión...</p>
+                <button type="button" class="btn btn-primary w-100 mt-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Púchale aquí para saber más
+                </button>
+            </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+
+    <!-- !MODAL -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered text-dark">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5 fw-bold" id="staticBackdropLabel">Avatar: La leyenda del Rott</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <p class="mb-0">Hace mucho tiempo cuando las 4 naciones vivían en armonía un ganadero tomó una decisión. Crear un perro que pudiera cuidar el hogar, arrear el ganado, proteger a la familia y ser amigable. Pero cuando el mundo más lo necesitaba el Rott casi se extinguió. Solo unos cuantos se unieron para salvar a la raza...</p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <a href="https://www.youtube.com/watch?v=IYS5kI8puhs" target="_blank" class="btn btn-primary">Ver video</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+ <footer class="bg-dark text-white mt-5 py-4" id="footer">
+        <div class="container">
+            <div class="row">
+                <!-- !Contactos internos -->
+                <div class="col-md-4 mb-3">
+                    <h5>¿Preguntas? Llama al 800 953 9947</h5>
+                    <p><a href="#" class="#">Preguntas frecuentes</p></a>
+                    <p><a href="#" class="#">Donaciones</p></a>
+                    <p><a href="#" class="#">Comprar tarjetas de regalo</p></a>
+                    <p><a href="#" class="#">Preferencias de Cookies</p></a>
+                    <p><a href="#" class="#">Avisos legales</p></a>
+                </div>
+                <!-- !Enlaces de interes -->
+                <div class="col-md-4 mb-3">
+                    <h5>Explora</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="#">Veterinarias</a></li>
+                        <li><a href="#" class="#">Petshop</a></li>
+                        <li><a href="#" class="">Adopciones</a></li>
+                        <li><a href="#" class="#">Aliados</a></li>
+                        <li><a href="#" class="#">Casos</a></li>
+                    </ul>
+                </div>
+                <!-- !Redes sociales -->
+                <div class="col-md-4 mb-3">
+                    <h5>Síguenos</h5>
+                    <p><a href="#" class="https://www.instagram.com/">📷 Instagram</p></a>
+                    <p><a href="#" class="https://www.facebook.com/">📘 Facebook</p></a>
+                    <p><a href="#" class="https://www.tiktok.com/">🎵 TikTok</p></a>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p class="mb-0">
+                    © 2026 Genflix | Esta página está protegida por Cristo-rey y reCAPTCHA para comprobar que no eres un
+                    robot.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
