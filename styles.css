@@ -1,0 +1,22 @@
+body{
+    background-color: rgba(201, 199, 199, 0.842);
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 12px; /* Esquinas redondeadas */
+  padding: 20px;
+  
+  /* Sintaxis: offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.10); /* Eleva la tarjeta 8px hacia arriba */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); /* Sombra más grande y visible */
+  border-color: #3b82f6; /* Opción opcional: cambia el color del borde */
+}
